@@ -13,11 +13,20 @@ or otherwise manipulate a set of data (or a large/very large set of data) easily
 _The Stream API_ can also perform tasks "in parallel" thus making the operations
 more efficient than the traditional approaches that we have learnt until now.
 
-**CAUTION!!!**
+---
+**CAUTION!!!**  
 To properly understand the Stream API, you need to be able to 
 wrap your head around complicated topics like
 1. Generics and Type Erasure in Java
 2. Lambda Expressions and Functional Interfaces in Java
 3. Parallel Execution of programs
 4. The Collections Framework in Java
+---
+
+## Stream API in the JDK
+_The Stream API_ defines quite some _Interfaces/Classes/Abstract Classes_ in the Java JDK 
+which can be observed in the `java.util.stream` package.  
+Just navigate to the `java.base` module, and the follow the `java.util.stream` package.
+---
+
 
