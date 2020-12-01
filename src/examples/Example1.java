@@ -17,5 +17,8 @@ public class Example1 {
 
         // Create a "Stream" for the ArrayList.
         Stream<Integer> stream = list.stream();
+
+        // let us find out the smallest element in the list
+        var smallestElement = stream.min(Integer::compare);
     }
 }
