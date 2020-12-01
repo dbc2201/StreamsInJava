@@ -27,5 +27,13 @@ public class Example1 {
         }
         // OR we can simplify it like this
         smallestElement.ifPresent(System.out::println);
+
+        // create another stream for the arraylist
+        stream = list.stream();
+
+        // we can find out the largest element in the list also
+        var largestElement = stream.max(Integer::compare);
+
+        largestElement.ifPresent(System.out::println);
     }
 }
