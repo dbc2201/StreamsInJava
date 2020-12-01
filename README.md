@@ -94,3 +94,12 @@ Woah nice! Lambda Expressions!
 Since the Stream API was built while keeping Lambda Expressions in mind
 it is able to work with Lambdas freely! 
 
+---
+
+As we have seen, the Stream API is able to benefit from the 
+great deal of features available in the JDK, we can also use streams
+to work with collections of some data with the Collections Framework.  
+
+So, we can use a collection in our program to create a stream.
+Also, we can use an array to create a stream by using the `Arrays.stream()` method.
+--- 
