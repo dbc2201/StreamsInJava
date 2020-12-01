@@ -102,4 +102,11 @@ to work with collections of some data with the Collections Framework.
 
 So, we can use a collection in our program to create a stream.
 Also, we can use an array to create a stream by using the `Arrays.stream()` method.
---- 
+
+---
+
+### Creating a stream from a collection as the data source
+
+Let us see an example where we can create a stream with a collection as the data source.
+
+ 
