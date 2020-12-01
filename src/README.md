@@ -29,4 +29,11 @@ which can be observed in the `java.util.stream` package.
 Just navigate to the `java.base` module, and the follow the `java.util.stream` package.
 ---
 
-
+## The `BaseStream` Interface
+The `java.util.stream.BaseStream` interface defines the functionality available in all streams.
+It is a generic interface which is declared something like this:
+```
+interface BaseStream<T, S extends BaseStream<T, S>> {
+// ...
+}
+```
