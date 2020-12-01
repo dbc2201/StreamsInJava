@@ -85,8 +85,12 @@ Similarily we can create ranges with the `LongStream` interface and the `DoubleS
 ---
 
 Let us see how we can print all the numbers in this range now.  
-See [here](/src/examples/Example2.java).
+See [here](/src/examples/Example2.java).  
 It does print the numbers in the range, but the output is a little wacky right?  
 No spaces between the numbers makes it look like just one number with a lot of digits!  
 Let's fix that!  
- 
+[here](/src/examples/Example3.java)
+Woah nice! Lambda Expressions!  
+Since the Stream API was built while keeping Lambda Expressions in mind
+it is able to work with Lambdas freely! 
+
