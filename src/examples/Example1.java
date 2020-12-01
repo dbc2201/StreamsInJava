@@ -20,5 +20,12 @@ public class Example1 {
 
         // let us find out the smallest element in the list
         var smallestElement = stream.min(Integer::compare);
+
+        // let us print out the smallest element
+        if (smallestElement.isPresent()) {
+            System.out.println(smallestElement.get());
+        }
+        // OR we can simplify it like this
+        smallestElement.ifPresent(System.out::println);
     }
 }
