@@ -9,5 +9,8 @@ public class Example4 {
 
         // Let us "stream" it!
         var stream = list.stream(); // Stream<Integer>
+
+        // print the contents of the stream (nothing will be printed since the stream is empty)
+        stream.forEach(System.out::println);
     }
 }
