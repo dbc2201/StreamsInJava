@@ -35,5 +35,25 @@ public class Example1 {
         var largestElement = stream.max(Integer::compare);
 
         largestElement.ifPresent(System.out::println);
+
+        // let us sort the list
+        Stream<Integer> sortedStream = list.stream().sorted();
+
+        // let us print all the element in this sorted stream
+        System.out.println("These are the elements in the sorted stream: ");
+        sortedStream.forEach(number -> System.out.print(number + " "));
+
+        // let's say we want to find out all the odd numbers from the arraylist
+        // we can do this like
+
+        // 1. Create a stream for the data source
+        stream = list.stream();
+
+        // 2. Apply any intermediate functions
+        stream = stream.sorted().filter(number -> number % 2 != 0);
+
+        // let us print the numbers now
+        System.out.println("\nAll the odd valued elements in the arraylist: ");
+        stream.forEach(number -> System.out.print(number + " "));
     }
 }
