@@ -37,3 +37,44 @@ interface BaseStream<T, S extends BaseStream<T, S>> {
 // ...
 }
 ```
+
+---
+
+The very first thing to learn about the Stream API is
+that is consists of three basic things
+1. A "Data Source" from where the data flows in.
+2. One or more intermediate operations. An intermediate operation produces a separate stream to perfom 
+the operation, it can also be used to create a "pipeline" to perform
+a number of operations on the stream.
+3. An optional terminal operation. A terminal operation
+"consumes" the stream i.e once a stream is "consumed", it can't be reused.
+More about that later...
+---
+
+First let us see how we can create a simple Stream in a Java program.
+
+To Create a "Stream" in Java, we can use the 'java.util.stream.Stream' interface.
+Since this interface is a Generic Type, we can actually use it to create a stream
+of any "reference" type in Java (pre-defined or programmer-defined).
+
+To handle the Stream(s) of primitive type in Java, we have the following interfaces
+* IntStream
+* DoubleStream
+* and LongStream  
+all defined in the same 'java.util.stream' package.
+---
+
+Let us see an example, we will use the `IntStream` interface's `range()` to create
+a range of integers in a stream.
+
+```
+import java.util.stream.IntStream;
+
+class Scratch {
+    public static void main(String[] args) {
+        var range = IntStream.range(1, 10);
+        // In the range() method, the first argument is included in the range 
+        // but the second number is excluded. 
+    }
+}
+```
