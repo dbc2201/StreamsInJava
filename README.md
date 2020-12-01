@@ -108,5 +108,5 @@ Also, we can use an array to create a stream by using the `Arrays.stream()` meth
 ### Creating a stream from a collection as the data source
 
 Let us see an example where we can create a stream with a collection as the data source.
-
+[StreamCollectionExample](/src/examples/Example4.java)
  
