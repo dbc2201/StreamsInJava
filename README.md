@@ -86,3 +86,7 @@ Similarily we can create ranges with the `LongStream` interface and the `DoubleS
 
 Let us see how we can print all the numbers in this range now.  
 See [here](/src/examples/Example2.java).
+It does print the numbers in the range, but the output is a little wacky right?  
+No spaces between the numbers makes it look like just one number with a lot of digits!  
+Let's fix that!  
+ 
