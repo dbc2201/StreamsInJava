@@ -114,4 +114,9 @@ Let us see an example where we can create a stream with a collection as the data
 
 ### Creating a stream from an array as the data source
 [StreamArrayExample](/src/examples/Example5.java)
+
+---
+
+Now, let us perform some operations on the stream!
+[SimpleStreamOperations](/src/examples/Example1.java)
  
