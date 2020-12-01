@@ -1,6 +1,7 @@
 package examples;
 
 import java.util.ArrayList;
+import java.util.stream.Stream;
 
 public class Example1 {
     public static void main(String[] args) {
@@ -13,5 +14,8 @@ public class Example1 {
         list.add(17);
         list.add(5);
         System.out.println("Original List: " + list);
+
+        // Create a "Stream" for the ArrayList.
+        Stream<Integer> stream = list.stream();
     }
 }
