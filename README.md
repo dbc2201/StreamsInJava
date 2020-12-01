@@ -84,3 +84,5 @@ Similarily we can create ranges with the `LongStream` interface and the `DoubleS
 
 ---
 
+Let us see how we can print all the numbers in this range now.  
+See [here](/src/examples/Example2.java).
