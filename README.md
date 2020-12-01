@@ -80,7 +80,7 @@ class Scratch {
     }
 }
 ```
-Similarily we can create ranges with the `LongStream` interface and the 'DoubleStream' interface as well.
+Similarily we can create ranges with the `LongStream` interface and the `DoubleStream` interface as well.
 
 ---
 
