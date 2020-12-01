@@ -27,6 +27,7 @@ wrap your head around complicated topics like
 _The Stream API_ defines quite some _Interfaces/Classes/Abstract Classes_ in the Java JDK 
 which can be observed in the `java.util.stream` package.  
 Just navigate to the `java.base` module, and the follow the `java.util.stream` package.
+
 ---
 
 ## The `BaseStream` Interface  
@@ -49,6 +50,7 @@ a number of operations on the stream.
 3. An optional terminal operation. A terminal operation
 "consumes" the stream i.e once a stream is "consumed", it can't be reused.
 More about that later...
+
 ---
 
 First let us see how we can create a simple Stream in a Java program.
@@ -78,3 +80,7 @@ class Scratch {
     }
 }
 ```
+Similarily we can create ranges with the `LongStream` interface and the 'DoubleStream' interface as well.
+
+---
+
