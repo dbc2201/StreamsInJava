@@ -12,5 +12,6 @@ public class Example1 {
         list.add(24);
         list.add(17);
         list.add(5);
+        System.out.println("Original List: " + list);
     }
 }
